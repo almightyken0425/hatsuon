@@ -10,7 +10,7 @@
 - Spec git 位於 `no3_product_specs/no1_pronunciation_app/`
 - Impl git 位於 `no5_product_development/no1_pronunciation_app/`
 - Design git 尚未建立
-- Module 配對以 `decision_framework_router` 的註冊表為準
+- Module 配對以 `product-scope` 的註冊表為準
 
 ---
 
@@ -31,9 +31,9 @@
 
 ## 原生工作規則
 
-- 任何改動先使用 `decision_framework_router`
-- Markdown 改動使用 `universal_writing_linter`
-- Spec 文件改動先使用 `spec_writer`
+- 任何改動先使用 `product-scope`
+- Markdown 改動使用 `doc-markdown`
+- Spec 文件改動先使用 `code-spec`
 - 跨層改動使用同名 feat branch
 - 配對 commit 使用相同 subject 與 body
 - 上游需求與 Product Map 已建立
